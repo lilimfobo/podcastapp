@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(222, 186, 206);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+    padding: 2px;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.audio-player{
+    flex-direction: column;
+}
